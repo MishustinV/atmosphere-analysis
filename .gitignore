@@ -1,69 +1,70 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# ===== C++ =====
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
 *.out
 *.app
-
-# Build directories
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.pdb
+*.idb
+*.ilk
 build/
-Build/
-build-*/
-
-# CMake generated files
+Debug/
+Release/
+x64/
+out/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+*.vcxproj.user
 
-# Temporary files
-*.tmp
-*.log
-*.bak
+# ===== C# / .NET =====
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.csproj.user
+*.cache
+packages/
+*.nupkg
+project.lock.json
+artifacts/
+TestResults/
+*.trx
+
+# ===== IDE =====
+.vscode/
+.idea/
 *.swp
+*~
+*.swo
 
-# vcpkg
-vcpkg_installed/
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# debug information files
-*.dwo
+# ===== Данные (большие файлы не коммитим) =====
+data/raw/
+data/processed/
+*.h5
+*.hdf5
+*.nc
+*.grib
+*.grib2
 
-# test output & cache
-Testing/
-.cache/
+# ===== Логи =====
+*.log
+logs/
+
+# ===== Прочее =====
+.env
+*.tmp
