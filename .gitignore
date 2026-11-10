@@ -68,3 +68,6 @@ logs/
 # ===== Прочее =====
 .env
 *.tmp
+bin/
+bin/
+obj/
